@@ -7,4 +7,4 @@ I have deployed this project in [RedHat Open Shift](http://www.openshift.com/)
 
 Check it yourself : [smallurl.tk](http://smallurl.tk)
 
-Author: [Robin Raju](http://linkedin.com/robinnraj)
+Author: [Robin Raju](http://linkedin.com/in/robinnraj)
