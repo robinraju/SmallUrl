@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DbHelper {
 	private static Connection connection;
-	
+	private static String driver="com.mysql.jdbc.Driver";
 	
 	public static Connection connectToDb() {
 		try {

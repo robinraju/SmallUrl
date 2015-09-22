@@ -48,8 +48,8 @@ body {
 	-o-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	/* Set your background with this */
-	background: #348cb2 url("../img/bg.jpg") bottom left;
+	/* Set your background with this url("../img/bg.jpg") bottom left; */
+	background: #348cb2;
 	background-repeat: repeat-x;
 	height: 100%;
 	left: 0;
@@ -159,23 +159,6 @@ body {
 	color: #ECF5FD;
 }
 
-/* Footer */
-
-#footer {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-	background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-	background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-	bottom: 0;
-	cursor: default;
-	height: 6em;
-	left: 0;
-	line-height: 8em;
-	position: absolute;
-	text-align: center;
-	width: 100%;
-}
 
 /***Form Styles***/
 #url_form {
@@ -348,4 +331,26 @@ body {
 	margin-left: 45%;
 	margin-top: 5px;
 }
+
+/* Footer */
+
+footer {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	bottom: 0;	
+	height: 4em;
+	left: 0;
+	
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color:#FFFFFF;
+}
+footer a:{
+	color:#FFFFFF;
+}
+
 

@@ -50,6 +50,15 @@
 			</div>
 		</div>
 	</div>
-
+	<footer>
+		Designed and Developed by: Robin Raju<br /> <a
+			href="http://facebook.com/robin460" target="_blank"><span
+			class="fa fa-2x fa-facebook-square"></span></a> <a
+			href="http://github.com/robinraju" target="_blank"> <span
+			class="fa fa-2x fa-github-square"></span></a> <a
+			href="http://linkedin.com/in/robinnraj" target="_blank"><span
+			class="fa fa-2x fa-linkedin-square"></span></a>
+	</footer>
 </body>
 </html>
+
