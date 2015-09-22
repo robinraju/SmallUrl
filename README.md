@@ -1,3 +1,10 @@
-The OpenShift `jbossews` cartridge documentation can be found at:
+#SmallUrl
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#tomcat
+A URL Shortening Service developed with Servlets.
+
+Paste any long URLs and click on the Shorten button. 
+I have deployed this project in [RedHat Open Shift](http://www.openshift.com/)
+
+Check it yourself : [smallurl.tk](http://smallurl.tk)
+
+Author: [Robin Raju](http://linkedin.com/robinnraj)
