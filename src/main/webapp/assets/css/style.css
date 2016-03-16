@@ -29,9 +29,7 @@ body {
 	top: 0;
 	width: 100%;
 }
-
 /* BG */
-
 #bg {
 	-moz-animation: bg 60s linear infinite;
 	-webkit-animation: bg 60s linear infinite;
@@ -138,7 +136,6 @@ body {
 	vertical-align: middle;
 	width: 90%;
 }
-
 #header h2 {
 	padding-bottom: 20px;
 	font-size: 1.35em;
@@ -147,8 +144,6 @@ body {
 	line-height: 1em;
 	color: #ECF5FD;
 }
-
-
 /***Form Styles***/
 #url_form {
 	background: #348cb2;/*  2d93cc*/
