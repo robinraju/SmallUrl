@@ -24,10 +24,10 @@
 				<span><label>O</label>hh.....</span>You Requested the page that is
 				no longer There.
 			</p>
-			<a href="http://smallurl.tk">Back To Home</a>
+			<a href="http://smallurl.gq">Back To Home</a>
 			<div class="copy-right">
 				<p>
-					&#169 All rights Reserved | <a href="http://smallurl.tk/">smallurl</a>
+					&#169 All rights Reserved | <a href="http://smallurl.gq/">smallurl</a>
 				</p>
 			</div>
 		</div>

@@ -16,6 +16,7 @@
 <script src="assets/js/jquery-2.1.4.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/clipboard.min.js"></script>
 <script src="assets/js/main.js"></script>
 </head>
 <body>
@@ -31,9 +32,9 @@
 						id="url_text" />
 					<div id="url_button">Shorten</div>
 				</div>
-				<div class="col-md-12">
-					<div id="result-box">
-						<h4 id="longurl"></h4>
+				<div class="container-fluid">
+					<div id="result-box" class="col-md-4">					
+						<h5 id="longurl"></h5>
 						<span id="arrow" class="fa fa-3x fa-arrow-down"></span>
 						<h1 id="smallurl"></h1>
 						<div class="ui-group-buttons">
@@ -44,6 +45,9 @@
 							<button id="btn-reset" class="btn btn-danger">
 								<span class="glyphicon glyphicon-remove"></span> Reset
 							</button>
+						</div>
+						<div id="copy-alert" class="alert alert-success">
+							<strong>Copied to Clip Board!</strong>
 						</div>
 					</div>
 				</div>
