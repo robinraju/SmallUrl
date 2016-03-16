@@ -32,15 +32,13 @@ $(document).ready(function() {
 	 * Copy to clipboard
 	 * */
 	$('#btn-copy').click(function(){
-		console.log("......");
 		var clipBoard = new Clipboard('#btn-copy',{
 			target: function(){
 				return document.querySelector('#smallurl');
 			}
 		});
 		clipBoard.on('success', function(e) {
-		    $('#copy-alert').delay(200).fadeIn().delay(3000).fadeOut();   
-			console.log(e);
+		    $('#copy-alert').delay(200).fadeIn().delay(3000).fadeOut();
 		});
 
 		clipBoard.on('error', function(e) {
@@ -54,6 +52,7 @@ $(document).ready(function() {
 	$('#btn-reset').click(function(){
 		$('#result-box').slideUp().fadeOut();
 		$('#url_text').val('');
+		$('#url_text').focus();
 	});
 	$(document).on({
 		ajaxStart: function(){

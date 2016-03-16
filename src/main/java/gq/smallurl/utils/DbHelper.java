@@ -13,10 +13,6 @@ import java.sql.SQLException;
 public class DbHelper {
 	private static Connection connection;	
 	private static String driver = "com.mysql.jdbc.Driver";
-	/*
-	private static String DB_HOST = System.getenv("OPENSHIFT_MYSQL_DB_HOST");
-	private static String DB_PORT = System.getenv("OPENSHIFT_MYSQL_DB_PORT");
-	*/
 
     /**
      * Connects to MySQL DB
