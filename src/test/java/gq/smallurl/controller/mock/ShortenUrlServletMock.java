@@ -1,6 +1,9 @@
 package gq.smallurl.controller.mock;
 
 
+import org.junit.Test;
+import static org.junit.Assert.*;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -17,8 +20,11 @@ public class ShortenUrlServletMock extends HttpServlet {
         super();
     }
 
+    @Test
     public void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        System.out.println(req.getParameter("longUrl"));
+
+        assertEquals("http://www.somelongaddress.com/",req.getParameter("longUrl"));
+
     }
 }
