@@ -1,6 +1,10 @@
 /target/
 /.idea/
 *.iml
+/.settings
+.classpath
+.project
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
