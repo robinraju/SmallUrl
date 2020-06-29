@@ -1,10 +1,7 @@
-#SmallUrl
+# SmallUrl
 
-A URL Shortening Service developed with Servlets.
+A URL Shortening Service developed using Servlets.
 
-Paste any long URLs and click on the Shorten button. 
-I have deployed this project in [RedHat Open Shift](http://www.openshift.com/)
+## Motivation
 
-Check it yourself : [smallurl.gq](http://smallurl.gq)
-
-Author: [Robin Raju](http://linkedin.com/in/robinnraj)
+I created this as a hobby project while learning Java.
